@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div className='bg-white h-20'>
         <div className='flex  text-black  items-center justify-between'>
-        <Image src={log} alt='' 
+        <Image src={log} alt='Logo' 
         className='w-25 h-20'
         />
             <ul className='flex gap-11 items-center'>
