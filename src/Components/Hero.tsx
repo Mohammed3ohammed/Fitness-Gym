@@ -4,9 +4,9 @@ import img0 from '../../Image/Hero.jpg'
 
 const Hero = () => {
   return (
-     <div className='grid grid-cols-2 mt-10' style={{height: "500px"}}>
+     <div className='grid grid-cols-2' style={{height: "700px"}}>
      <div className='flex flex-col  justify-around  items-center'>
-     <h1 className='text-white text-3xl'>lose angeles premir<br /> 
+     <h1 className='text-white text-3xl '>lose angeles premir<br /> 
       <span className='text-red-500'>mobile fltness and health professionals</span>
       </h1>
        <p className='w-8/12 text-xl '>
@@ -22,14 +22,12 @@ const Hero = () => {
      <div className='flex justify-center items-center'>
             <Image 
             src={img0}
-            alt='log'
+            alt='Image'
             className='w-full mr-5 ml-5 rounded-s-3xl opacity-50'
             />
      </div>
 </div>
-
-
-  )
-}
+);
+};
 
 export default Hero;

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/Components/NavBar";
 import Hero from "@/Components/Hero";
+import ChooseUs from "@/Components/ChooseUs";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <NavBar />
         {children}
         <Hero />
+        <ChooseUs />
         </body>
     </html>
   );
