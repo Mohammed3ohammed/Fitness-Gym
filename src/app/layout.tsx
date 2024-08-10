@@ -4,6 +4,7 @@ import "./globals.css";
 import NavBar from "@/Components/NavBar";
 import Hero from "@/Components/Hero";
 import ChooseUs from "@/Components/ChooseUs";
+import WorkOut from "@/Components/WorkOut";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         {children}
         <Hero />
         <ChooseUs />
+        <WorkOut />
         </body>
     </html>
   );
