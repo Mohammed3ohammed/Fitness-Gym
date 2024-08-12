@@ -17,8 +17,6 @@ import Image7 from '../Components/Image/img7.jpg';
 import Image8 from '../Components/Image/img8.jpg';
 import { Pagination } from 'swiper/modules';
 
-
-
 const Services = () => {
     const swiperRef = useRef<any>(null);
     const handleBack = () => {
@@ -35,8 +33,6 @@ const Services = () => {
 
     const images = [Image1 , Image2, Image3, Image4, Image5, Image6, Image7, Image8 ];
     
-
-
   return (
     <>
         <h1 className='text-4xl mb-2 text-center mt-10'>Our <span className='text-red-600'>Services</span></h1>
