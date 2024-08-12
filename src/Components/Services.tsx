@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import '../app/globals.css';
 import { useRef } from 'react';
 import Image from 'next/image';
 import Image1 from '../Components/Image/img1.jpg';
@@ -34,7 +33,7 @@ const Services = () => {
     const images = [Image1 , Image2, Image3, Image4, Image5, Image6, Image7, Image8 ];
     
   return (
-    <>
+    <div className='mt-10' style={{height: "700px"}} >
         <h1 className='text-4xl mb-2 text-center mt-10'>Our <span className='text-red-600'>Services</span></h1>
       <p className='text-center'>
       Delivered By Highly Trained Fitness and Health Professionals
@@ -58,20 +57,20 @@ const Services = () => {
         spaceBetween={40}
        
         modules={[Pagination]}
-        className="mySwiper mt-10"
+        className="mySwiper mt-10 rounded-3xl"
       >
               {
                 images.map((img , index) => (
                     <SwiperSlide key={index}>
                  
                     <Image src={img} alt='image' 
-                   className='w-full '
+                   className='w-full'
                   
                     />
                     <div className='mt-10 '>
                     <h2 className='text-3xl'>EVALUATION</h2>
-                    <p className='mt-5 w-10/12'>3D BODY SCAN IN-DEPTH BODY ASSESSMENT PHYSICAL AND DIETARY ASSESSMENT</p>
-                    <button className='bg-red-600 text-white mt-4 border-2 border-solid border-red-600 p-3 rounded-2xl w-72 text-start'>Learn More</button>
+                    <p className='mt-4 m-auto w-10/12'>3D BODY SCAN IN-DEPTH BODY ASSESSMENT PHYSICAL AND DIETARY ASSESSMENT</p>
+                    <button className='bg-red-600 text-white mt-7 border-2 border-solid border-red-600 p-3 rounded-2xl w-72 text-start'>Learn More</button>
                     </div>
                     </SwiperSlide> 
                  
@@ -79,7 +78,7 @@ const Services = () => {
               }
               
       </Swiper>
-    </>
+    </div>
   )
 }
 

@@ -35,21 +35,11 @@ body {
 
 .swiper {
   width: 60%;
-  height: 60%;
+  height: 70%;
 }
 
 .swiper-slide {
   text-align: center;
   background: #0a0a0a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   
 }
-
-/* .swiper-slide img {
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
