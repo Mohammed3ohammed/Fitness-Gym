@@ -70,7 +70,7 @@ const Services = () => {
                     <div className='mt-10 '>
                     <h2 className='text-3xl'>EVALUATION</h2>
                     <p className='mt-4 m-auto w-10/12'>3D BODY SCAN IN-DEPTH BODY ASSESSMENT PHYSICAL AND DIETARY ASSESSMENT</p>
-                    <button className='bg-red-600 text-white mt-7 border-2 border-solid border-red-600 p-3 rounded-2xl w-72 text-start'>Learn More</button>
+                    <button className='bg-red-600 text-white mt-7 border-2 border-solid border-red-600 p-3 rounded-2xl w-64 text-start'>Learn More</button>
                     </div>
                     </SwiperSlide> 
                  
