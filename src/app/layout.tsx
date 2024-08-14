@@ -8,6 +8,7 @@ import WorkOut from "@/Components/WorkOut";
 import Services from "@/Components/Services";
 import Level from "@/Components/Level";
 import Training from "@/Components/Training";
+import Footer from "@/Components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         <Services />
         <Level />
         <Training />
+        <Footer />
         </body>
     </html>
   );
